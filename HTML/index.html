@@ -5,8 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App de Clima</title>
     <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <main>
+        <form action="">
+        <input type="text" autocomplete="off" placeholder="Ingrese el nombre de una ciudad">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        </form>
+
+        <section>
+            <figure class="name">
+                <figcaption>London</figcaption>
+                <img src="https://flagsapi.com/GB/shiny/32.png" alt="">
+            </figure>
+           <figure class="temperatura">
+    <img src="http://openweathermap.org/img/wn/10d@4x.png" alt="">
+    <figcaption>
+        <span class="temperature">15°C</span>
+    </figcaption>
+</figure>
+
+        </section>
+        <p class="descripcion">
+            Overcast Clouds
+        </p>
+
+        <ul>
+            <li>
+                <span>Clouds</span>
+                <i class="fa-regular fa-cloud"></i>
+                <span>98</span>
+            </li>
+            <li>
+                <span>Humedad</span>
+                <i class="fa-regular fa-droplet"></i>
+                <span>55</span>
+            </li>
+            <li>
+                <span>Precion</span>
+                <span>1001</span>hPa
+            </li>
+        </ul>
+    </main>
     
     <script src="/JS/script.js"></script>
 </body>
