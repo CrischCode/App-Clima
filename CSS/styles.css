@@ -56,8 +56,11 @@ main section {
 
 .temperatura img {
     width: 150px;
-    filter: drop-shadow(0 10px 50px #000);
+    filter: none;
+    transition: filter 0.3s ease;
 }
+
+
 
 .temperatura figcaption {
     font-size: 3em;
@@ -100,4 +103,24 @@ main li:nth-child(2) {
 
 main li:nth-child(3) {
     background-color: #55acee;
+}
+
+main.error {
+    animation: errorEffect 0.3s linear 1;
+}
+
+@keyframes errorEffect {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.descripcion {
+    padding: 5px 0 25px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #333;
 }
