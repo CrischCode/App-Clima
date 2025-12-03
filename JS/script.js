@@ -89,6 +89,5 @@ function getColorWeatherIcon(icon) {
     return `https://raw.githubusercontent.com/basmilius/weather-icons/master/production/fill/all/${name}.svg`;
 }
 
-
 actualizarFecha();
 initApp()
