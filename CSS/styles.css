@@ -133,6 +133,13 @@ main li {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 main li:hover {
     transform: translateY(-5px);
 }
